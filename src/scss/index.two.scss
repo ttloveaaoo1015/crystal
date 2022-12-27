@@ -1,0 +1,90 @@
+@import 'reset';
+
+.navbar {
+    background: #F8E6D1;
+    
+}
+
+#moon {
+    position: relative;
+    height: 70vh;
+    background-image: url(../images/moon.two.jpg);
+    background-size: cover;
+}
+
+.page-one {
+    background-color: #464331;
+    
+    div {
+        color: #F8E6D1;
+    }
+}
+
+
+.page-three {
+    position: relative;
+    height: 80vh;
+    background: #233A38;
+    ;
+    // background-image: url(../images/me1.jpg);
+    // background-repeat: no-repeat;
+    // height: 50px;
+
+
+    
+
+    .me {
+        top: 20px;
+        height: 350px;
+    }
+
+    .row {
+        position: relative;
+        z-index: 9;
+        top: -350px;
+        color: #94876C;
+        // object-position: top;
+        // inset-block-start: 20px;
+        // writing-mode: horizontal-tb;
+
+        .col {
+            color: #6C5D46;
+        }
+
+        .text {
+            right: 50px;
+        }
+    }
+
+    
+}
+
+.page-five {
+    background-color: #131518;
+    position: relative;
+    height: 70vh;
+
+    .lib {
+        height: 300px;
+        
+    }
+}
+
+.page-six {
+    
+    position: relative;
+    height: 62vh;
+
+    .lib {
+        height: 300px;
+        
+    }
+
+    .lib2 {
+        height: 450px;
+    }
+}
+
+#footer {
+    background: #E5B581;
+}

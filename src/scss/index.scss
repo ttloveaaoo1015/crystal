@@ -1,0 +1,43 @@
+@import 'reset';
+
+.navbar {
+    background: #F8E6D1;
+}
+
+#img-one {
+    border-top-left-radius:120px;
+    border-top-right-radius:120px;
+    
+}
+
+// #E5B581
+#text-one {
+    position: relative;
+    font-size: 60px;
+    color: #E5B581;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    opacity: 0.5;
+
+    &::before{
+        content:" ";
+        display: block;
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        background: #BB9579;
+    }
+
+    
+}
+
+
+#footer {
+    background: #E5B581;
+}
+
+.page {
+    background-color: #F8E6D1;
+}

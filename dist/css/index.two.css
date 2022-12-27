@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: #F8E6D1;
+}
+
+#moon {
+  position: relative;
+  height: 70vh;
+  background-image: url(../images/moon.two.jpg);
+  background-size: cover;
+}
+
+.page-one {
+  background-color: #464331;
+}
+.page-one div {
+  color: #F8E6D1;
+}
+
+.page-three {
+  position: relative;
+  height: 80vh;
+  background: #233A38;
+}
+.page-three .me {
+  top: 20px;
+  height: 350px;
+}
+.page-three .row {
+  position: relative;
+  z-index: 9;
+  top: -350px;
+  color: #94876C;
+}
+.page-three .row .col {
+  color: #6C5D46;
+}
+.page-three .row .text {
+  right: 50px;
+}
+
+.page-five {
+  background-color: #131518;
+  position: relative;
+  height: 70vh;
+}
+.page-five .lib {
+  height: 300px;
+}
+
+.page-six {
+  position: relative;
+  height: 62vh;
+}
+.page-six .lib {
+  height: 300px;
+}
+.page-six .lib2 {
+  height: 450px;
+}
+
+#footer {
+  background: #E5B581;
+}/*# sourceMappingURL=index.two.css.map */
