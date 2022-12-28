@@ -49,7 +49,6 @@
 .page-five {
   background-color: #131518;
   position: relative;
-  height: 70vh;
 }
 .page-five .lib {
   height: 300px;
@@ -57,7 +56,6 @@
 
 .page-six {
   position: relative;
-  height: 62vh;
 }
 .page-six .lib {
   height: 300px;

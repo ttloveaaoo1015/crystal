@@ -11,8 +11,9 @@
 }
 
 #img-one {
-  border-top-left-radius: 120px;
-  border-top-right-radius: 120px;
+  height: 500px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
 }
 
 #text-one {
@@ -40,4 +41,8 @@
 
 .page {
   background-color: #F8E6D1;
+}
+
+.topp {
+  height: 100px;
 }/*# sourceMappingURL=index.css.map */
