@@ -22,7 +22,7 @@
 
 #moon {
   position: relative;
-  height: 70vh;
+  height: 50vh;
   background-image: url(../images/moon.two.jpg);
   background-size: cover;
 }
@@ -36,7 +36,7 @@
 
 .page-three {
   position: relative;
-  height: 100vh;
+  height: 60vh;
   background: #233A38;
 }
 .page-three .me {
@@ -60,9 +60,6 @@
   background-color: #131518;
   position: relative;
 }
-.page-five .lib {
-  height: 300px;
-}
 
 .page-six {
   position: relative;
@@ -80,10 +77,10 @@
 
 @media (max-width: 768px) {
   .page-one {
-    height: 210vh;
+    height: 130vh;
   }
   .page-one .m1 {
-    width: 50px;
+    width: 20px;
   }
   .page-one .text-one {
     padding: 80ox;
@@ -94,11 +91,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    margin-bottom: 100px;
     text-align: center;
   }
   .page-three {
-    height: 110vh;
+    height: 70vh;
   }
   .page-four .nn {
     text-align: center;
@@ -106,13 +103,24 @@
   .page-five {
     position: relative;
   }
+  .page-five .lib {
+    height: 20px;
+    margin-top: 20px;
+  }
   .page-five .mm {
+    position: relative;
+    z-index: 5;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 80%;
   }
+  .page-six {
+    position: relative;
+  }
   .page-six .zz {
+    position: relative;
+    z-index: 9;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
