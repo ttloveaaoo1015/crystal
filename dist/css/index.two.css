@@ -80,7 +80,7 @@
 
 @media (max-width: 768px) {
   .page-one {
-    height: 190vh;
+    height: 210vh;
   }
   .page-one .m1 {
     width: 50px;
@@ -88,8 +88,20 @@
   .page-one .text-one {
     padding: 80ox;
   }
+  .page-two .text-one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    text-align: center;
+  }
   .page-three {
     height: 110vh;
+  }
+  .page-four .nn {
+    text-align: center;
   }
   .page-five {
     position: relative;
@@ -99,6 +111,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 80%;
+  }
+  .page-six .zz {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    text-align: center;
   }
   .hh {
     display: flex;

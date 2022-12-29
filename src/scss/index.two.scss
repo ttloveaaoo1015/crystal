@@ -92,7 +92,7 @@
 @media (max-width:768px) {
 
     .page-one {
-        height: 190vh;
+        height: 210vh;
         
         .m1 {
             width: 50px;
@@ -101,9 +101,22 @@
         }
 
         .text-one {
+            // text-align: center;
             // align-items: center;
             // justify-content: center;
             padding: 80ox;
+        }
+    }
+    .page-two {
+        .text-one {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            // padding-top: -20px;
+            padding-bottom: 50px;
+            text-align: center;
         }
     }
     
@@ -111,6 +124,14 @@
         height: 110vh;
         // top: -25px;
 
+    }
+
+    .page-four {
+        .nn {
+
+        
+            text-align: center;
+        }
     }
 
     .page-five {
@@ -122,6 +143,18 @@
             flex-direction: column;
             flex-wrap: wrap;
             width: 80%;
+        }
+    }
+
+    .page-six {
+        .zz {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 50px;
+            text-align: center;
         }
     }
 
