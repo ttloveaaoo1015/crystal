@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .hide-in-ads {
+    display: none;
+  }
+}
+.hide-in-ads {
+  width: 768px;
+  clear: both;
+}
+
 .navbar {
   background: #F8E6D1;
 }
@@ -26,7 +36,7 @@
 
 .page-three {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   background: #233A38;
 }
 .page-three .me {
@@ -66,4 +76,38 @@
 
 #footer {
   background: #E5B581;
+}
+
+@media (max-width: 768px) {
+  .page-one {
+    height: 190vh;
+  }
+  .page-one .m1 {
+    width: 50px;
+  }
+  .page-one .text-one {
+    padding: 80ox;
+  }
+  .page-three {
+    height: 110vh;
+  }
+  .page-five {
+    position: relative;
+  }
+  .page-five .mm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .hh {
+    display: flex;
+    margin-top: unset;
+  }
+  .did {
+    display: none;
+  }
+  .text-one {
+    top: 20px;
+  }
 }/*# sourceMappingURL=index.two.css.map */

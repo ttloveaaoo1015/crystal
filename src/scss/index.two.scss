@@ -23,7 +23,7 @@
 
 .page-three {
     position: relative;
-    height: 80vh;
+    height: 100vh;
     background: #233A38;
     ;
     // background-image: url(../images/me1.jpg);
@@ -87,4 +87,57 @@
 
 #footer {
     background: #E5B581;
+}
+
+@media (max-width:768px) {
+
+    .page-one {
+        height: 190vh;
+        
+        .m1 {
+            width: 50px;
+            // height: 30px;
+            // margin-bottom: 20px;
+        }
+
+        .text-one {
+            // align-items: center;
+            // justify-content: center;
+            padding: 80ox;
+        }
+    }
+    
+    .page-three {
+        height: 110vh;
+        // top: -25px;
+
+    }
+
+    .page-five {
+        position: relative;
+        .mm {
+            // position: absolute;
+            
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 80%;
+        }
+    }
+
+    .hh {
+        display: flex;
+        margin-top: unset;
+    }    
+
+    .did {
+        display: none;
+        
+    }
+
+
+
+    .text-one {
+        top: 20px;
+    }
 }

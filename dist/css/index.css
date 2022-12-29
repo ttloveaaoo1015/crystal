@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .hide-in-ads {
+    display: none;
+  }
+}
+.hide-in-ads {
+  width: 768px;
+  clear: both;
+}
+
 .navbar {
   background: #F8E6D1;
 }
